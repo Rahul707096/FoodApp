@@ -5,9 +5,13 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
    <>
-    <div><Navbar/></div>
-    <div>Main Body</div>
-    <div><Footer/></div>
+    <div className="flex flex-col min-h-screen">
+      <Navbar/>
+      <main className="flex-grow">
+       I Am Main Body Work on Process....
+      </main>
+      <Footer />
+    </div>
    </>
   )
 }
